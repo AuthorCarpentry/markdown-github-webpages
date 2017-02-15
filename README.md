@@ -9,7 +9,7 @@ Author Carpentry : Using Markdown and github to author for web and print
 
 **Lesson status: In Development**
 
-##Learning Objectives:
+## Learning Objectives:
 - Using Jekyll to transform markdown into webpages
 - Setting up a workflow to create both html and PDF/ebook version
 
