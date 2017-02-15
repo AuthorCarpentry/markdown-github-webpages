@@ -1,22 +1,17 @@
-Author Carpentry : Lesson Template
+Author Carpentry : Using Markdown and github to author for web and print
 =======
 
-A description of the lesson goes here.  If you're reading this on the github
-repo, you see the rendered lesson at:
-
-http://authorcarpentry.github.io/lesson-template-mkpage
-
-This template is inspired by the software and data carpentry templates, 
-but it employs the mkpage site generation tool as an alternative
-to Jekyll.  Full usage information is at the bottom of the page.
-
-**Content Contributors: Name **
+*Content Contributors: Sebastian Karcher*
 
 
-**Lesson Maintainers: Name **
+*Lesson Maintainers: Sebastian Karcher*
 
 
 **Lesson status: In Development**
+
+##Learning Objectives:
+- Using Jekyll to transform markdown into webpages
+- Setting up a workflow to create both html and PDF/ebook version
 
 ## Topics:
 
@@ -73,7 +68,6 @@ Add Content
 * Add individual .md files with lesson topics in repository with leading numbers like: 00-topic1.md;
 01-topic2.md
 * Edit nav.md to set links in the navigation bar
-* Edit CONTRIBUTORS as appropriate
 
 View Lesson
 
