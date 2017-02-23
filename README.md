@@ -3,9 +3,7 @@ Author Carpentry : Using Markdown and github to author for web and print
 
 *Content Contributors: Sebastian Karcher*
 
-
 *Lesson Maintainers: Sebastian Karcher*
-
 
 **Lesson status: In Development**
 
