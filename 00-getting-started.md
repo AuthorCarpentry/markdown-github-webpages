@@ -1,46 +1,45 @@
-#  Getting Started with Open Refine
-10 Minutes
+#  Getting Started with Markdown
+?? Minutes
 
 -------------------------
 
 ## Learning Objectives
 
-* Describe OpenRefine’s uses and applications.
-* Differentiate data cleaning from data organization.
-* Experiment with OpenRefine’s user interface.
-* Locate helpful resources to learn more about OpenRefine.
+* Understand the rationale for Markdown
+* Create a github account
+* Create a very Markdown file on github
+* Learn about some other options for editors writing github
 
 ----------------------------------------------------
 
-## Motivations for the Open Refine Lesson
+## Motivations for the Markdown and github pages Lesson
+* Markdown makes it very easy to write structured text that can be converted easily into all types of different formats
+* Markdown is plain text, which means you can read and write it with every text editor. You can also pretty easily see what changed between two different version of a Markdown file.
+* github is a platform for hosting and sharing code and, increasingly, other forms of work -- including *Author Carpentry*!
+* Markdown is also a sort of "lingua franca" of github: e.g. all comments and Readme files are written in Markdown
+* With the help of markdown and github, you can quickly build a modern, custom website.
 
-* It's really important that you know what you did. More journals/grants/etc. are also making it important for them to know what you did. You can capture all steps done to your data in Open Refine to the raw file and share them with your publication as supplemental material.
-* All steps are easily reversed in Refine.
-* You _must_ save your work to a new file; Refine _does not_ modify your original dataset.
-* Data is often very messy - and this tool saves a lot of cleaning headaches.
-* Data cleaning steps often need repeating with multiple files. Refine is perfect for speeding up repetitive tasks.
-* Some concepts like clustering algorithms are quite complex, but Refine makes it easy to introduce them, use them, and show their power.
 
 ## Before we get started
 
-* Check that you have Firefox or Chrome browsers installed. Open Refine runs in your default browser. It will not run correctly in Internet Explorer.
-* Download software from [http://openrefine.org](http://openrefine.org) if you have not done this yet.
-* Unzip the downloaded file into a directory by double-clicking it (Mac) or right-clicking and selecting "Extract..." on Windows. Name that directory something like Open-Refine.
-* Go to your newly created Open-Refine directory.
-* Launch Open Refine
-  * Windows: Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
-  * Mac: Drag icon into Applications folder, and Ctrl-click/Open... it. (See [this article](https://support.apple.com/kb/PH21769?locale=en_US) for more information on what you're doing here.)
-  * Linux: Type `./refine` into the terminal within the OpenRefine directory
-* Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
-* If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+* Create a github account if you do not have one already
+  * go to [github.com](https://github.com) and pick a username and password to create an account
+* You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use
+  * If you do not want to install atom, many other good editors such as TextWrangler/BBEdit, Sublime, or Notepad++ work, too. There are also great online editors such as [hackmd](https://hackmd.io/), and [Dillinger](http://dillinger.io/) though we suggest you use a local tool here.
 
-## Basics of Open Refine
+## Basics of Markdown
 
-You can find out a lot more about Open Refine at [http://openrefine.org]() and check out some great introductory videos. There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [Open Refine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, Open Refine libraries are available too, where you can find a script you need and copy it into your Refine instance to run it on your dataset.
+The most basic "markup" of a text are bold and italics. In markdown, these are created using a single asterisk for \*italics\*  and two asterisks for \*\*bold\*\*.
 
-## Features
-* Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
-* A large growing community, from novice to expert, ready to help.
-* Works with large-ish datasets (100,000 rows). Does not scale to many millions. (yet).
+### Excercise
 
-Next: [Working with OpenRefine](01-working-with-openrefine.html)
+Create your first text in markdown. Go to the free online markdown editor at [Dillinger](http://dillinger.io/). Write a couple of words including bold and italics. Try inserting multiple spaces between words. What happens? Try inserting multiple linebreaks between two lines. What do you notice?
+What happens when you "forget" an asterisk on one side of an italicized or bolded expression?
+
+
+## Further Reading
+- Add resources on history of markdown here
+
+
+
+Next: [An overview of markdown syntax](01-markdown-syntax.html)
