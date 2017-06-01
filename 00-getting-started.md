@@ -27,6 +27,10 @@
 * You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use
   * If you do not want to install atom, many other good editors such as TextWrangler/BBEdit, Sublime, or Notepad++ work, too. There are also great online editors such as [hackmd](https://hackmd.io/), and [Dillinger](http://dillinger.io/) though we suggest you use a local tool here.
 
+## What is Markdown?
+There are many forms of Markdown you are likely familiar with by name. For example,
+
+
 ## Basics of Markdown
 
 The most basic "markup" of a text are bold and italics. In markdown, these are created using a single asterisk for \*italics\*  and two asterisks for \*\*bold\*\*.

@@ -9,21 +9,22 @@ Author Carpentry : Using Markdown and github to author for web and print
 
 ## Learning Objectives:
 - Using Jekyll to transform markdown into webpages
-- Setting up a workflow to create both html and PDF/ebook version
+- Creating a github page with simple navigation
+-
+<!--- Setting up a workflow to create both html and PDF/ebook version -->
 
 ## Topics:
 
-1. [Topic 1](00-getting-started.html)
-2. [Topic 2](01-working-with-openrefine.html)
-3. [Topic 3](02-scripts.html)
-4. [Topic 4](03-save-export.html)
+1. [Topic 1: Getting Started](00-getting-started.html)
+2. [Topic 2: Markdown Syntax](01-markdown-syntax.html)
+3. [Topic 3: Github Pages](02-github-pages.html)
+4. [Topic 4: Jekyll Setup (optional)](03-jekyll-setup.html)
+5. [Topic 5: Site Structure](04-site-structure.html)
+6. [Topic 6: Changing your site theme](05-changing-theme.html)
 
-### Optional
-- [Topic 5](04-services.html)
+<!--### Optional
+- [Topic 5](04-services.html) -->
 
-## Data
-
-Data files for the lesson are available here: 
 
 ## Requirements
 
