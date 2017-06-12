@@ -71,9 +71,16 @@ layout: default
 * Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage
 * Take a moment to pat yourself on the back.
 
-### Excercise
+## Excercise
 Can you figure out how to add the resume from the last topic as a separate page on the website?
-What is its link? Can you change the link from the homepage so it links to it. 
+What is its link? Can you change the link from the homepage so it links to it?
+
+### Solution
+* First copy your myresume.md file to the my-first-webpage folder
+* Add a YAML header just like above, except with a different title.
+* Run the add all, commit and push option
+
+
 
 
 
