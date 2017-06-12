@@ -50,8 +50,8 @@ To most effectively use these materials, please make sure to install everything
 
 3. You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use, and some portions of this course rely on atom.
   * Atom is highly extensible with "packages" that add functionality. For markdown, install the package *Markdown Preview Plus*:
-  * Go to Edit --> Preferences and click on "Install" on the left. Paste `markdown-preview-plus` into the search window, press return,  and click the blue "Install" button next to the package. On successful installation, you will have the package listed in the "Package" menu.
-  * Paste `git-plus` into the search window, press return,  and click the blue "Install" button next to the package. On successful installation, you will have the package listed in the "Package" menu.
+  * Click "Install a Package" or go to Edit --> Preferences (Atom -> Preferences on a mac) and click on "Install" on the left. Paste `markdown-preview-plus` into the search window, press return,  and click the blue "Install" button next to the package. On successful installation, you will have the package listed in the "Package" menu.
+  * Paste `git-plus` into the search window, press return,  and click the blue "Install" button next to the package. (Not git-plus-plus) On successful installation, you will have the package listed in the "Package" menu.
   * If you do not want to install atom, many other good editors such as TextWrangler/BBEdit, Sublime, or Notepad++ work, too. There are also great online editors such as [hackmd](https://hackmd.io/), and [Dillinger](http://dillinger.io/) though we suggest you use a local tool here.
 4. Optional: While we will default to git in atom / command line for this lesson,
 consider installing the github desktop app from https://desktop.github.com/
