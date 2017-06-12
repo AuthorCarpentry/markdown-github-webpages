@@ -1,5 +1,5 @@
 # Jekyll Setup (optional)
-? minute:
+? minutes
 
 ## Learning Objectives
 
@@ -14,4 +14,4 @@
 # Lesson
 
 
-Previous: [github pages](02-github-pages.html) Optional Next: [Site Stucture &amp; Navigation](04-site-structure.html)
+Previous: [Github Pages](02-gh-pages.html) Optional Next: [Site Stucture &amp; Navigation](04-site-structure.html)
