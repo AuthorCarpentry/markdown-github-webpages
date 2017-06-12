@@ -1,11 +1,7 @@
----
-layout: lesson
-root: .
-title: Jekyll Setup (optional)
-minutes:
----
+# Jekyll Setup (optional)
+? minute:
 
-# Learning Objectives
+## Learning Objectives
 
 * Setup jekyll locally
 * Preview your changes in your local browser
