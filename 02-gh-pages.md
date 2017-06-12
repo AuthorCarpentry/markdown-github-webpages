@@ -1,5 +1,5 @@
 # Github Pages
-30 Minutes
+40 Minutes
 
 ## Learning Objectives
 * Set up a github repository for a webpage
