@@ -32,17 +32,15 @@
 * Go to the "Code" tab of your repository
 * Click on "Clone or download"
 * Copy the HTTPS link for your repository
-* In the Terminal (or on git bash on Windows), navigate to the folder where you would like to work. You may need to create that folder first e.g.
+* In the Terminal (or on git bash on Windows), navigate to the location where you want to put your repository.  Desktop is a easy choice.
 ```
 cd ~/Desktop
-mkdir resume-website
-cd resume-website
 ```
 * Now "clone" the repository from github using
 ```
 git clone https://github.com/<yourgithubusername>/my-first-webpage.git
 ```
-* In Atom, using the "Open Folder" command under "File", open the resume-website folder you just created.
+* In Atom, using the "Open Folder" command under "File", open your my-first-webpage repository.
 * You should see 3 files on your left: `.gitignore`, `README.md`, and `_config.yml`
 
 ### Configuring your page
@@ -53,6 +51,7 @@ git clone https://github.com/<yourgithubusername>/my-first-webpage.git
 * Save the configuration file (you can use `ctrl+s`)
 * Open README.md by clicking on it on the left. This is going to be your homepage.
 * You first need to add a "YAML header" at the top of the file. use
+
 ```
 ---
 title: John Doe's Homepage
