@@ -15,7 +15,7 @@
 ----------------------------------------------------
 ## Creating a Markdown Document
 
-So far, you have just written markdown in an online editor. Start by creating a local file. The file extension for markdown is .md. You can just open a text editor and create a file or do this from the commandline. use `cd` to go to the folder you want to work in. Then use `atom testingmarkdown.md` to create a markdown file.
+So far, you have just written markdown in an online editor. Start by creating a local file. The file extension for markdown is .md. You can just open a text editor and create a file or do this from the commandline. use `cd` to go to the folder you want to work in. Then use `atom myresume.md` to create a markdown file.
 
 ## Working with Markdown in Atom
 *You can skip this section if you are using a different text editor*.
@@ -48,32 +48,51 @@ You have already learned the two commands for bold and italics. Let's look at so
 
 
 ## Excercise
-Now let's try this. Recreate the following text (or any other text you'd like with the same elements). Save the file as testingmarkdown.md and use Atom's preview function to view the formatted version.
+Now let's try this. Create your Resume using markdown following the template below. Fill in the data relevant to you.
 
 ----
 
-# I Love Markdown
-I really enjoy writing in markdown. It's easy to write things in **bold** or *italics*, but I now can do much more
-- I can write things in a lists
-- I can add headings
-  - and subheadings
+# Resume of John Doe
+* ORCID: https://orcid.org/0000-0001-8249-7388  
+* [ScienceOpen Profile](https://www.scienceopen.com/user/fe25273d-b2ef-4843-b3a5-23ea6ae9f5e8)
+##Objective
+> To boldly go where no author has gone before
 
 
-## I Really Do Love Markdown
-I also like how easy it is to read. As John Gruber, the creator of markdown  [said](https://daringfireball.net/projects/markdown/):
-> The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+## Experience
+* **Job 1**
+  * *Dates*
+  * Description/Accomplishment
+* **Job 2**
+  * *Dates*
+  * Description/Accomplishment  
+* **Job 3**
+  * *Dates*
+  * Description/Accomplishment
 
-It's also not surprising that Markdown has become so popular with people writing code. It is really easy to highlight small bits of code such as `echo hello world!` and even whole codeblocks such as
+
+## Publications
+
+(paste the output from DOI content negotiation here and mark it up with italics as appropriate)
+
+Karcher, S., & Steinberg, D. A. (2013). Assessing the Causes of Capital Account Liberalization: How Measurement Matters. *International Studies Quarterly, 57(1)*, 128–137. https://doi.org/10.1111/isqu.12001
+
+
+Karcher, S., & Schneider, B. R. (2012). Business politics in Latin America: Investigating structure, preferences, and influence. In P. R. Kingstone & D. J. Yashar (Eds.), *Routledge Handbook of Latin American Politics* (pp. 273–284). New York, NY: Routledge.
+
+Schneider, B. R., & Karcher, S. (2010). Complementarities and Continuities in the Political Economy of Labor Markets in Latin America. *Socio-Economic Review, 8(4)*, 623–651. https://doi.org/10.1093/ser/mwq022
+
+## Code samples
+Here is how to use `curl` to get a bibliographic reference for a DOI in APA style:
 ```
-echo I love markdown > markdown.txt
-sed -i s/love/looove/ markdown.txt
-grep ooo markdown.txt
+curl -LH "Accept: text/x-bibliography; style=apa" https://doi.org/10.1126/science.169.3946.635
 ```
+
 ---
 **Solution**: If you run into trouble, you can check the syntax for the above [here](GITHUBLINK).
 
 ##Markdown and html
-Now let's look at how the markdown you wrote corresponds to html. Right-click on the preview window, select "Save as HTML" and save the file testingmarkdown.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select "Inspect Element".
+Now let's look at how the markdown you wrote corresponds to html. Right-click on the preview window, select "Save as HTML" and save the file myresume.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select "Inspect Element".
 
 ###Challenge
 Can you match markdown and html elements? How are they different? What do you think are the advantages of each format?
