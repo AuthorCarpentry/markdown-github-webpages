@@ -34,13 +34,17 @@ You have already learned the two commands for bold and italics. Let's look at so
     - Topic 2  
     - Topic 3
       - Topic 3a
-    ```
+  ```
+
 - To cite code (including markdown syntax as above) use \` on both sides for short bits and  \`\`\` in a separate line above and below larger codeblocks.
 - Quote text using > at the beginning of the line (maybe you remember this from old e-mail programs?)
-   ```
+
+  ```
   > This is a Quote
   ```
+
 - A link is set putting the text that you want to highlight in square brackets followed by the link in round brackets. Don't forget to include http:// or https:// at the beginning of the link
+
   ```
   [This is a link](http://www.example.com)
   ```
