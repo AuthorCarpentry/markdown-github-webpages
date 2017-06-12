@@ -1,5 +1,5 @@
 #  Getting Started with Markdown
-?? Minutes
+5 Minutes
 
 -------------------------
 

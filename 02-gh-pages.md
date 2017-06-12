@@ -1,12 +1,10 @@
 # Github Pages
-?? Minutes
+30 Minutes
 
 ## Learning Objectives
 * Set up a github repository for a webpage
 * clone the repository to your computer
 * make local changes and push them to your github site.
-
-
 
 ----------------------------------------------------
 
@@ -30,7 +28,7 @@
 * **Tip**: Copy the URL of your website and edit the "description" on the "Code" tab of your github repository to include it so you can find it easily
 
 ### Downloand ("clone") the repository to your computer
-* We do need the commandline here.
+* We do need the command line.
 * Go to the "Code" tab of your repository
 * Click on "Clone or download"
 * Copy the HTTPS link for your repository
@@ -61,9 +59,13 @@ title: John Doe's Homepage
 layout: default
 ---
 ```
+
 * Then add some simple content such as
-># John Doe's Homepage
->You can find my Resume [here](/myresume.md)
+
+```
+# John Doe's Homepage
+You can find my Resume [here](/myresume.md)
+```
 
 * For now, just put any address in the link. We will add the link to your resume shortly.
 * Save the file
