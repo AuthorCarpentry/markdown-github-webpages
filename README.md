@@ -42,9 +42,9 @@ To most effectively use these materials, please make sure to install everything
   * If you have never run git (you can check using `git config --list`) you need to set up your username and e-mail:
   * Either follow the detailed instruction on the [Software Carpentry](http://swcarpentry.github.io/git-novice/02-setup/) site or simply run:
   ```
-  $ git config --global user.name "Your Username"
-  $ git config --global user.email "your@email.edu"
-  $ git config --global color.ui "auto"
+  $ git config --global user.name "Your Username"  
+  $ git config --global user.email "your@email.edu"  
+  $ git config --global color.ui "auto"  
   ```
 
 
