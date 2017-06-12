@@ -1,16 +1,13 @@
----
-layout: lesson
-root: .
-title: Site Structure &amp; Navigation
-minutes:
----
+# Site Structure &amp; Navigation
+?? minutes
 
-# Learning Objectives
+## Learning Objectives
 
 * Understand the configuration file of your website
 * Create several pages with some nagivation
 
+---
 
-#
+# Site structure
 
-Previous: [github pages](03-jekyll-setup.html)  Next: [Changing Your Site Theme](05-changing-theme.html)
+Previous: [Jekyll Setup](03-jekyll-setup.html)  Next: [Changing Your Site Theme](05-changing-theme.html)

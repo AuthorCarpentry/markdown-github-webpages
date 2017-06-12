@@ -1,16 +1,12 @@
----
-layout: lesson
-root: .
-title: Changing Your Site Theme
-minutes:
----
+# Changing Your Site Theme
+?? minutes
 
-# Learning Objectives
-
+## Learning Objectives
 
 * Learn how to switch the theme of your github page
 * Understand how to make simple changes in your page's theme
 
+---
 
 #
 
