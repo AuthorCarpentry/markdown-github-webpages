@@ -23,9 +23,13 @@
 * Click "Create repository" to do just that
 
 ### Set up the page on github
-* W
 * Your new repository will open on github
 * Click on "Settings" at the top
+* Under GitHub Pages, towards the bottom of the screen select "master branch" and click "Save".
+  * **Quick Challenge**: github lets you choose between the master branch or a "Doc folder" within that branch. When would you consider choosing the Doc folder?
+  * *Solution* The Doc folder is particularly useful when you are writing documentation to a project. That way, you can keep the code in the master branch and have the documentation in a subfolder.
+* Pick a theme (any theme will do -- pick your favorite!)
+
 
 
 
