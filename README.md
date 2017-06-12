@@ -42,12 +42,11 @@ To most effectively use these materials, please make sure to install everything
   * If you have never run git (you can check using `git config --list`) you need to set up your username and e-mail:
   * Either follow the detailed instruction on the [Software Carpentry](http://swcarpentry.github.io/git-novice/02-setup/) site or simply run:
 
-  ```
-  $ git config --global user.name "Your Username"  
-  $ git config --global user.email "your@email.edu"  
-  $ git config --global color.ui "auto"  
-  ```
-
+   ```
+   $ git config --global user.name "Your Username"  
+   $ git config --global user.email "your@email.edu"  
+   $ git config --global color.ui "auto"  
+   ```
 3. You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use, and some portions of this course rely on atom.
   * Atom is highly extensible with "packages" that add functionality. For markdown, install the package *Markdown Preview Plus*:
   * Go to Edit --> Preferences and click on "Install" on the left. Paste `markdown-preview-plus` into the search window, press return,  and click the blue "Install" button next to the package. On successful installation, you will have the package listed in the "Package" menu.
