@@ -61,6 +61,61 @@
 <li><em>Solution</em> The Doc folder is particularly useful when you are writing documentation to a project. That way, you can keep the code in the master branch and have the documentation in a subfolder.</li>
 </ul></li>
 <li>Pick a theme (any theme will do &ndash; pick your favorite!)</li>
+<li><strong>Tip</strong>: Copy the URL of your website and edit the &ldquo;description&rdquo; on the &ldquo;Code&rdquo; tab of your github repository to include it so you can find it easily</li>
+</ul>
+
+<h3>Downloand (&ldquo;clone&rdquo;) the repository to your computer</h3>
+
+<ul>
+<li>We do need the commandline here.</li>
+<li>Go to the &ldquo;Code&rdquo; tab of your repository</li>
+<li>Click on &ldquo;Clone or download&rdquo;</li>
+<li>Copy the HTTPS link for your repository</li>
+<li>In the Terminal (or on git bash on Windows), navigate to the folder where you would like to work. You may need to create that folder first e.g.
+<code>
+cd ~/Desktop
+mkdir resume-website
+cd resume-website
+</code></li>
+<li>Now &ldquo;clone&rdquo; the repository from github using
+<code>
+git clone https://github.com/&lt;yourgithubusername&gt;/my-first-webpage.git
+</code></li>
+<li>In Atom, using the &ldquo;Open Folder&rdquo; command under &ldquo;File&rdquo;, open the resume-website folder you just created.</li>
+<li>You should see 3 files on your left: <code>.gitignore</code>, <code>README.md</code>, and <code>_config.yml</code></li>
+</ul>
+
+<h3>Configuring your page</h3>
+
+<ul>
+<li>Open <code>_config.yml</code> by clicking on it. This file contains basic information about your site.
+
+<ul>
+<li><code>.yml</code> files are called &ldquo;YAML&rdquo; files.</li>
+</ul></li>
+<li>Change <code>title:</code> to something sensible like <code>title: John Doe's Homepage</code></li>
+<li>Add a description using the <code>description:</code> tag.</li>
+<li>Save the configuration file (you can use <code>ctrl+s</code>)</li>
+<li>Open README.md by clicking on it on the left. This is going to be your homepage.</li>
+<li>You first need to add a &ldquo;YAML header&rdquo; at the top of the file. use
+<code>
+---
+title: John Doe's Homepage
+layout: default
+---
+</code></li>
+
+<li><p>Then add some simple content such as
+&gt;# John Doe&rsquo;s Homepage
+&gt;You can find my Resume <a href="/myresume.md">here</a></p></li>
+
+<li><p>For now, just put any address in the link. We will add the link to your resume shortly.</p></li>
+
+<li><p>Save the file</p></li>
+
+<li><p>Now, in the &ldquo;Package&rdquo; menu of Atom, under git-plus, use the &ldquo;add all, commit and push option&rdquo;</p></li>
+
+<li><p>Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage</p></li>
 </ul>
 
 <p>Previous: <a href="01-markdown-syntax.html">Markdown Syntax</a>  Next: <a href="03-jekyll-setup.html">Setting up Jekyll</a></p>
