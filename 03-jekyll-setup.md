@@ -1,11 +1,7 @@
----
-layout: lesson
-root: .
-title: Jekyll Setup (optional)
-minutes:
----
+# Jekyll Setup (optional)
+? minutes
 
-# Learning Objectives
+## Learning Objectives
 
 * Setup jekyll locally
 * Preview your changes in your local browser
@@ -18,4 +14,4 @@ minutes:
 # Lesson
 
 
-Previous: [github pages](02-github-pages.html) Optional Next: [Site Stucture &amp; Navigation](04-site-structure.html)
+Previous: [Github Pages](02-gh-pages.html) Optional Next: [Site Stucture &amp; Navigation](04-site-structure.html)

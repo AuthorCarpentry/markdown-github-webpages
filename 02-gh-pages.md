@@ -73,4 +73,4 @@ layout: default
 
 
 
-Previous: [Markdown Syntax](01-markdown-syntax.html)  Next: [Site Structure](03-site-structure.html)
+Previous: [Markdown Syntax](01-markdown-syntax.html)  Next: [Setting up Jekyll](03-jekyll-setup.html)
