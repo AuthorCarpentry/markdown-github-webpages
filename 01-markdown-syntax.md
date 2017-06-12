@@ -27,15 +27,17 @@ Now press `ctrl+shift+m` (or select "Toggle Preview" under "Markdown Preview Plu
 
 ## Markdown syntax
 You have already learned the two commands for bold and italics. Let's look at some other basics:
+
 - To create headings, put one or more \# symbols at the beginning of a line, followed by a space. One \# is for a level one header, \#\# for a level two header, etc.
+
 - To make bullet lists (such as this one), just start lines with a -; you can get additional levels by starting a line a couple of spaces or a tab in. Numbered lists work the same way using 1. 2. 3.
+
   ```
     - Topic 1
     - Topic 2  
     - Topic 3
       - Topic 3a
   ```
-
 - To cite code (including markdown syntax as above) use \` on both sides for short bits and  \`\`\` in a separate line above and below larger codeblocks.
 - Quote text using > at the beginning of the line (maybe you remember this from old e-mail programs?)
 
