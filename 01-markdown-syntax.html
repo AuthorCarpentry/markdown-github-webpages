@@ -13,6 +13,10 @@
 <li><a href=".">Lesson</a></li>
 <li><a href="00-getting-started.html">Topic 1</a></li>
 <li><a href="01-markdown-syntax.html">Topic 2</a></li>
+<li><a href="02-gh-pages.html">Topic 3: Github Pages</a></li>
+<li><a href="03-jekyll-setup.html">Topic 4: Jekyll Setup (optional)</a></li>
+<li><a href="04-site-structure.html">Topic 5: Site Structure</a></li>
+<li><a href="05-changing-theme.html">Topic 6: Changing your site theme</a></li>
 <li><a href="mailto:authorcarpentry@library.caltech.edu">Contact Us</a></li>
 </ul>
 
@@ -37,7 +41,7 @@
 
 <h2>Creating a Markdown Document</h2>
 
-<p>So far, you have just written markdown in an online editor. Start by creating a local file. The file extension for markdown is .md. You can just open a text editor and create a file or do this from the commandline. use <code>cd</code> to go to the folder you want to work in. Then use <code>atom testingmarkdown.md</code> to create a markdown file.</p>
+<p>So far, you have just written markdown in an online editor. Start by creating a local file. The file extension for markdown is .md. You can just open a text editor and create a file or do this from the commandline. use <code>cd</code> to go to the folder you want to work in. Then use <code>atom myresume.md</code> to create a markdown file.</p>
 
 <h2>Working with Markdown in Atom</h2>
 
@@ -74,35 +78,54 @@
 
 
 ## Excercise
-Now let's try this. Recreate the following text (or any other text you'd like with the same elements). Save the file as testingmarkdown.md and use Atom's preview function to view the formatted version.
+Now let's try this. Create your Resume using markdown following the template below. Fill in the data relevant to you.
 
 ----
 
-# I Love Markdown
-I really enjoy writing in markdown. It's easy to write things in **bold** or *italics*, but I now can do much more
-- I can write things in a lists
-- I can add headings
-  - and subheadings
+# Resume of John Doe
+* ORCID: https://orcid.org/0000-0001-8249-7388  
+* [ScienceOpen Profile](https://www.scienceopen.com/user/fe25273d-b2ef-4843-b3a5-23ea6ae9f5e8)
+##Objective
+&gt; To boldly go where no author has gone before
 
 
-## I Really Do Love Markdown
-I also like how easy it is to read. As John Gruber, the creator of markdown  [said](https://daringfireball.net/projects/markdown/):
-&gt; The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+## Experience
+* **Job 1**
+  * *Dates*
+  * Description/Accomplishment
+* **Job 2**
+  * *Dates*
+  * Description/Accomplishment  
+* **Job 3**
+  * *Dates*
+  * Description/Accomplishment
 
-It's also not surprising that Markdown has become so popular with people writing code. It is really easy to highlight small bits of code such as `echo hello world!` and even whole codeblocks such as
+
+## Publications
+
+(paste the output from DOI content negotiation here and mark it up with italics as appropriate)
+
+Karcher, S., &amp; Steinberg, D. A. (2013). Assessing the Causes of Capital Account Liberalization: How Measurement Matters. *International Studies Quarterly, 57(1)*, 128–137. https://doi.org/10.1111/isqu.12001
+
+
+Karcher, S., &amp; Schneider, B. R. (2012). Business politics in Latin America: Investigating structure, preferences, and influence. In P. R. Kingstone &amp; D. J. Yashar (Eds.), *Routledge Handbook of Latin American Politics* (pp. 273–284). New York, NY: Routledge.
+
+Schneider, B. R., &amp; Karcher, S. (2010). Complementarities and Continuities in the Political Economy of Labor Markets in Latin America. *Socio-Economic Review, 8(4)*, 623–651. https://doi.org/10.1093/ser/mwq022
+
+## Code samples
+Here is how to use `curl` to get a bibliographic reference for a DOI in APA style:
 </code></pre>
 
-<p>echo I love markdown &gt; markdown.txt
-sed -i s/love/looove/ markdown.txt
-grep ooo markdown.txt</p>
-
-<h2>```</h2>
-
-<p><strong>Solution</strong>: If you run into trouble, you can check the syntax for the above <a href="GITHUBLINK">here</a>.</p>
+<p>curl -LH &ldquo;Accept: text/x-bibliography; style=apa&rdquo; <a href="https://doi.org/10.1126/science.169.3946.635">https://doi.org/10.1126/science.169.3946.635</a>
+```</p>
 </blockquote>
 
+<hr />
+
+<p><strong>Solution</strong>: If you run into trouble, you can check the syntax for the above <a href="GITHUBLINK">here</a>.</p>
+
 <p>##Markdown and html
-Now let&rsquo;s look at how the markdown you wrote corresponds to html. Right-click on the preview window, select &ldquo;Save as HTML&rdquo; and save the file testingmarkdown.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select &ldquo;Inspect Element&rdquo;.</p>
+Now let&rsquo;s look at how the markdown you wrote corresponds to html. Right-click on the preview window, select &ldquo;Save as HTML&rdquo; and save the file myresume.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select &ldquo;Inspect Element&rdquo;.</p>
 
 <p>###Challenge
 Can you match markdown and html elements? How are they different? What do you think are the advantages of each format?</p>
