@@ -68,7 +68,12 @@ layout: default
 * For now, just put any address in the link. We will add the link to your resume shortly.
 * Save the file
 * Now, in the "Package" menu of Atom, under git-plus, use the "add all, commit and push option"
-* Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage 
+* Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage
+* Take a moment to pat yourself on the back.
+
+### Excercise
+Can you figure out how to add the resume from the last topic as a separate page on the website?
+What is its link? Can you change the link from the homepage so it links to it. 
 
 
 
