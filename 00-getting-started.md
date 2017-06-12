@@ -24,18 +24,19 @@
 
 * Create a github account if you do not have one already
   * go to [github.com](https://github.com) and pick a username and password to create an account
-* You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use
+* You should have a good text editor. [Atom](http://atom.io/) is a free an open source editor with excellent markdown support that we highly recommend you install and use, and some portions of this course rely on atom.
+  * Atom is highly extensible with "packages" that add functionality. For markdown, install the package *Markdown Preview Plus*:
+  * Go to Edit --> Preferences and click on "Install" on the left. Paste `markdown-preview-plus` into the search window and click the blue "Install" button. On successful installation, you will have the package listed in the "Package" menu.
   * If you do not want to install atom, many other good editors such as TextWrangler/BBEdit, Sublime, or Notepad++ work, too. There are also great online editors such as [hackmd](https://hackmd.io/), and [Dillinger](http://dillinger.io/) though we suggest you use a local tool here.
 
 ## What is Markdown?
-There are many forms of Markdown you are likely familiar with by name. For example,
-
+Markdown is a play on words on "markup" languages such as hypertext markup language (html) or extended markup language (xml). Markup is designed to make writing and formatting text simple. It is a "plain text" language, which means you can open and read a markdown file with any text editor, including modern ones such as Atom and editors that have been around for more than 30 years such as vi. The goal of markdown is that the plain text is easily human readable (we will come back to that) and that it can be converted into html (and, now, into a whole host of other formats).
 
 ## Basics of Markdown
 
 The most basic "markup" of a text are bold and italics. In markdown, these are created using a single asterisk for \*italics\*  and two asterisks for \*\*bold\*\*.
 
-### Excercise
+### Exercise
 
 Create your first text in markdown. Go to the free online markdown editor at [Dillinger](http://dillinger.io/). Write a couple of words including bold and italics. Try inserting multiple spaces between words. What happens? Try inserting multiple linebreaks between two lines. What do you notice?
 What happens when you "forget" an asterisk on one side of an italicized or bolded expression?

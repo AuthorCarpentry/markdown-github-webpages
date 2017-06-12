@@ -17,7 +17,7 @@ Author Carpentry : Using Markdown and github to author for web and print
 
 1. [Topic 1: Getting Started](00-getting-started.html)
 2. [Topic 2: Markdown Syntax](01-markdown-syntax.html)
-3. [Topic 3: Github Pages](02-github-pages.html)
+3. [Topic 3: Github Pages](02-gh-pages.html)
 4. [Topic 4: Jekyll Setup (optional)](03-jekyll-setup.html)
 5. [Topic 5: Site Structure](04-site-structure.html)
 6. [Topic 6: Changing your site theme](05-changing-theme.html)

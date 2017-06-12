@@ -28,14 +28,89 @@
 <h2>Learning Objectives</h2>
 
 <ul>
+<li>Create a local markdown document and take advantage of Atom as a md editor</li>
 <li>Learn the syntax for all important formatting in markdown</li>
 <li>Learn how markdown relates to html</li>
-<li>Be able to create a local markdown document</li>
 </ul>
 
 <hr />
 
+<h2>Creating a Markdown Document</h2>
+
+<p>So far, you have just written markdown in an online editor. Start by creating a local file. The file extension for markdown is .md. You can just open a text editor and create a file or do this from the commandline. use <code>cd</code> to go to the folder you want to work in. Then use <code>atom testingmarkdown.md</code> to create a markdown file.</p>
+
+<h2>Working with Markdown in Atom</h2>
+
+<p><em>You can skip this section if you are using a different text editor</em>.</p>
+
+<p>Type some text into markdown. Now put some text into italics and bold using * as you learned in the last lesson. What do you notice? One of the benefits of using Atom is that it gives you this <em>syntax highlighting</em> to make it easier for you to spot any problems in your text formatting.</p>
+
+<p>Now press <code>ctrl+shift+m</code> (or select &ldquo;Toggle Preview&rdquo; under &ldquo;Markdown Preview Plus&rdquo; in the &ldquo;Packages&rdquo; menu). You will see your text formatted, just like you did in the online editor during the last lesson.</p>
+
 <h2>Markdown syntax</h2>
+
+<p>You have already learned the two commands for bold and italics. Let&rsquo;s look at some other basics:
+- To create headings, put one or more # symbols at the beginning of a line, followed by a space. One # is for a level one header, ## for a level two header, etc.
+- To make bullet lists (such as this one), just start lines with a -; you can get additional levels by starting a line a couple of spaces or a tab in. Numbered lists work the same way using 1. 2. 3.</p>
+
+<pre><code>    - Topic 1
+    - Topic 2  
+    - Topic 3
+      - Topic 3a
+    ```
+- To cite code (including markdown syntax as above) use \` on both sides for short bits and  \`\`\` in a separate line above and below larger codeblocks.
+- Quote text using &gt; at the beginning of the line (maybe you remember this from old e-mail programs?)
+</code></pre>
+
+<blockquote>
+<p>This is a Quote</p>
+
+<pre><code>- A link is set putting the text that you want to highlight in square brackets followed by the link in round brackets. Don't forget to include http:// or https:// at the beginning of the link
+</code></pre>
+
+<p><a href="http://www.example.com">This is a link</a></p>
+
+<pre><code>- You can find more markdown formatting options [here](https://guides.github.com/features/mastering-markdown/). Note that markdown comes in different dialects, referred to as &quot;flavors&quot;. We are mainly going to be using elements that are part of a consensus referred to as [Common Markdown](http://commonmark.org/), though you can use any other components of the github flavored markdown linked above.
+
+
+## Excercise
+Now let's try this. Recreate the following text (or any other text you'd like with the same elements). Save the file as testingmarkdown.md and use Atom's preview function to view the formatted version.
+
+----
+
+# I Love Markdown
+I really enjoy writing in markdown. It's easy to write things in **bold** or *italics*, but I now can do much more
+- I can write things in a lists
+- I can add headings
+  - and subheadings
+
+
+## I Really Do Love Markdown
+I also like how easy it is to read. As John Gruber, the creator of markdown  [said](https://daringfireball.net/projects/markdown/):
+&gt; The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+
+It's also not surprising that Markdown has become so popular with people writing code. It is really easy to highlight small bits of code such as `echo hello world!` and even whole codeblocks such as
+</code></pre>
+
+<p>echo I love markdown &gt; markdown.txt
+sed -i s/love/looove/ markdown.txt
+grep ooo markdown.txt</p>
+
+<h2>```</h2>
+
+<p><strong>Solution</strong>: If you run into trouble, you can check the syntax for the above <a href="GITHUBLINK">here</a>.</p>
+</blockquote>
+
+<p>##Markdown and html
+Now let&rsquo;s look at how the markdown you wrote corresponds to html. Right-click on the preview window, select &ldquo;Save as HTML&rdquo; and save the file testingmarkdown.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select &ldquo;Inspect Element&rdquo;.</p>
+
+<p>###Challenge
+Can you match markdown and html elements? How are they different? What do you think are the advantages of each format?</p>
+
+<p>####Solution
+Markdown and html translate neatly: e.g. the headings are the same as h1, h2, h3, italics are the same as &lt;i&gt; tags, etc.
+But note how hard the html is to right, with the need to get all the tags right, and how hard to read it is for you.
+On the other hand, note all the additional information the HTML is able to include that isn&rsquo;t printed. That can be very useful, e.g. to include even more structure in a page or to add metadata.</p>
 
 <p>Previous: <a href="00-getting-started.html">Getting Started with Markdown</a>  Next: <a href="02-scripts.html">Scripts from OpenRefine</a></p>
 
