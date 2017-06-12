@@ -29,10 +29,9 @@ Now press `ctrl+shift+m` (or select "Toggle Preview" under "Markdown Preview Plu
 You have already learned the two commands for bold and italics. Let's look at some other basics:
 
 - To create headings, put one or more \# symbols at the beginning of a line, followed by a space. One \# is for a level one header, \#\# for a level two header, etc.
-
 - To make bullet lists (such as this one), just start lines with a -; you can get additional levels by starting a line a couple of spaces or a tab in. Numbered lists work the same way using 1. 2. 3.
-
-  ```
+  
+   ```
     - Topic 1
     - Topic 2  
     - Topic 3
@@ -61,7 +60,8 @@ Now let's try this. Create your Resume using markdown following the template bel
 # Resume of John Doe
 * ORCID: https://orcid.org/0000-0001-8249-7388  
 * [ScienceOpen Profile](https://www.scienceopen.com/user/fe25273d-b2ef-4843-b3a5-23ea6ae9f5e8)
-##Objective
+
+## Objective
 > To boldly go where no author has gone before
 
 
@@ -75,7 +75,6 @@ Now let's try this. Create your Resume using markdown following the template bel
 * **Job 3**
   * *Dates*
   * Description/Accomplishment
-
 
 ## Publications
 
@@ -97,15 +96,17 @@ curl -LH "Accept: text/x-bibliography; style=apa" https://doi.org/10.1126/scienc
 ---
 **Solution**: If you run into trouble, you can check the syntax for the above [here](GITHUBLINK).
 
-##Markdown and html
+---
+
+## Markdown and html
 Now let's look at how the markdown you wrote corresponds to html. Right-click on the preview window, select "Save as HTML" and save the file myresume.md.html somewhere on your computer. Now open a browser (Firefox or Chrome) and open that file. Right-click somewhere in the web document that open and select "Inspect Element".
 
-###Challenge
-Can you match markdown and html elements? How are they different? What do you think are the advantages of each format?
+> ## Challenge
+> Can you match markdown and html elements? How are they different? What do you think are the advantages of each format?
+> 
+> > ## Solution
+> > Markdown and html translate neatly: e.g. the headings are the same as h1, h2, h3, italics are the same as &lt;i&gt; tags, etc.
+> > But note how hard the html is to right, with the need to get all the tags right, and how hard to read it is for you.
+> > On the other hand, note all the additional information the HTML is able to include that isn't printed. That can be very useful, e.g. to include even more structure in a page or to add metadata.
 
-####Solution
-Markdown and html translate neatly: e.g. the headings are the same as h1, h2, h3, italics are the same as &lt;i&gt; tags, etc.
-But note how hard the html is to right, with the need to get all the tags right, and how hard to read it is for you.
-On the other hand, note all the additional information the HTML is able to include that isn't printed. That can be very useful, e.g. to include even more structure in a page or to add metadata.
-
-Previous: [Getting Started with Markdown](00-getting-started.html)  Next: [Scripts from OpenRefine](02-scripts.html)
+Previous: [Getting Started with Markdown](00-getting-started.html) Next: [Github Pages](02-gh-pages.html)
