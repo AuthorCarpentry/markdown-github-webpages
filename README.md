@@ -13,7 +13,7 @@ Author Carpentry : Using Markdown and github to author for web and print
 -
 <!--- Setting up a workflow to create both html and PDF/ebook version -->
 
-## Topics:
+## What you will learn:
 
 1. [Topic 1: Getting Started](00-getting-started.html)
 2. [Topic 2: Markdown Syntax](01-markdown-syntax.html)
@@ -55,3 +55,7 @@ To most effectively use these materials, please make sure to install everything
   * If you do not want to install atom, many other good editors such as TextWrangler/BBEdit, Sublime, or Notepad++ work, too. There are also great online editors such as [hackmd](https://hackmd.io/), and [Dillinger](http://dillinger.io/) though we suggest you use a local tool here.
 4. Optional: While we will default to git in atom / command line for this lesson,
 consider installing the github desktop app from https://desktop.github.com/
+
+## Cheat Sheet
+
+## References
