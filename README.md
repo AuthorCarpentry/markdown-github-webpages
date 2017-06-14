@@ -11,7 +11,7 @@ Author Carpentry : Using Markdown and github to author for web and print
 ## What you will learn:
 
 - Use the Atom editor to write and preview texts in markdown
-- Use github to turn markdown files into an website
+- Use github to turn markdown files into a modern website
 - Convert markdown into different formats like `.docx` using pandoc
 
 
