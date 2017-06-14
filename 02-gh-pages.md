@@ -24,15 +24,25 @@
 * Under GitHub Pages, towards the bottom of the screen select "master branch" and click "Save".
   * **Quick Challenge**: github lets you choose between the master branch or a "Doc folder" within that branch. When would you consider choosing the Doc folder?
   * *Solution* The Doc folder is particularly useful when you are writing documentation to a project. That way, you can keep the code in the master branch and have the documentation in a subfolder.
-* Pick a theme (any theme will do -- pick your favorite!)
-* **Tip**: Copy the URL of your website and edit the "description" on the "Code" tab of your github repository to include it so you can find it easily
+* **Tip**: Copy the URL of your website and edit the "description" on the "Code" tab of your github repository to include it so you can find it easily later on:
+  * After you set the source for your website, the URL will appear in green right above it. It will have the format \<yourgithubusername\>/github.io/my-first-webpage
+  * Copy that URL. Then press the "Code" tab at the top of that page to get back to the root page of your repository.
+  * Click on the green Edit button at the top right, next to "*No description, website, or topics provided*" and add your website URL in the "*Website for this repository*" field and click Save.
+* Go back to the settings by clicking on the "Settings" tab at the top and scroll down to the "GitHub Pages" section again.
+* Now pick a theme (any theme will do -- pick your favorite!):
+  * You can click on the themes at the top and see a preview below
+  * Click "Select Theme" to pick your favorite theme
+  * GitHub will open the "README.md" with some prepopulated text.
+* Remove the sample text from the README by clicking anywhere in the edit window, select all (`ctrl/cmd + a`) and the delete or backspace key.
+* Scroll to the bottom of the screen to "commit" your changes. You can just use the default settings and press the green "Commit changes" button.
 
 ### Downloand ("clone") the repository to your computer
-* We do need the command line.
-* Go to the "Code" tab of your repository
+*We will need the command line here, so open terminal (Linux/Mac) or git bash (Windows)*
+* Go back to the "Code" tab of your repository by clicking on "Code" at the top.
 * Click on "Clone or download"
 * Copy the HTTPS link for your repository
-* In the Terminal (or on git bash on Windows), navigate to the location where you want to put your repository.  Desktop is a easy choice.
+  * If you have SSH activated for github, use the SSH link instead.
+* In the Terminal (or on git bash on Windows), navigate to the location where you want to put your repository. Desktop is a easy choice.
 ```
 cd ~/Desktop
 ```
@@ -40,6 +50,7 @@ cd ~/Desktop
 ```
 git clone https://github.com/<yourgithubusername>/my-first-webpage.git
 ```
+(the URI will look slightly different using SSH, but the git clone command works exactly the same)
 * In Atom, using the "Open Folder" command under "File", open your my-first-webpage repository.
 * You should see 3 files on your left: `.gitignore`, `README.md`, and `_config.yml`
 
