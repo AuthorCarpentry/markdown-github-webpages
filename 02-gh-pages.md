@@ -91,6 +91,8 @@ What is its link? Can you change the link from the homepage so it links to it?
 * First copy your myresume.md file to the my-first-webpage folder
 * Add a YAML header just like above, except with a different title.
 * Run the add all, commit and push option
+* Your resume will be on https://<yourgithubusername>.github.io/my-resume
+  * Note the absence of the .md file extension. github/jekyll converts the file to an .html file, so the link also works ending in `my-resume.html`.
 
 
 
