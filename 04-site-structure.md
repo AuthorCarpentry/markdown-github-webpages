@@ -16,7 +16,7 @@ Conveniently, Jekyll just uses the folder structure you create locally as the st
   * **Tip**: You can do all of this in your file browser, but you can also stay entirely in Atom. By right clicking on your website folder on the left, you can create a new folder, and right-clicking on that folder lets you create files in that folder.
 
 ### Exercise
-You now want to provide information about your dissertation research to your page. Create a page "Dissertation" that links to  sub-pages for Chapter 1, Chapter 2, Chapter 3 (or any other divisions you would like). Don't worry about populating any of those pages.
+You now want to provide information about your dissertation research (or your book manuscript, if you prefer) on your page. Create a page "Dissertation" that links to  sub-pages for Chapter 1, Chapter 2, Chapter 3 (or any other divisions you would like). Don't worry about populating any of those pages.
 
 ### Solution
 * Right-click on the top-level folder, "my-first-webpage" on the left and select "New File". Create `dissertation.md` and add a YAML header (see below) and save the file.
@@ -32,10 +32,18 @@ layout: default
 * Now open up `dissertation.md` and create links to these three chapters. That be something like
 ```
 Learn more about my dissertation.
-* Details about chapter 1 are [here][dissertation/chapter1]
-* Details about chapter 2 are [here][dissertation/chapter2]
-* Details about chapter 3 are [here][dissertation/chapter3]
+* Details about chapter 1 are [here](dissertation/chapter1)
+* Details about chapter 2 are [here](dissertation/chapter2)
+* Details about chapter 3 are [here](dissertation/chapter3)
 ```
 * Use "Add all, commit, and push" to push your changes to github and see your results.
 
-Previous: [Jekyll Setup](03-jekyll-setup.html)  Next: [Changing Your Site Theme](05-changing-theme.html)
+## Images
+
+You can use the same ideas about structure to add images to your page. An image is written just like a link, but preceded by an exclamation mark. `![This is an image](/linkto/image.png)`
+* **Tip**: The text in the square brackets is the so-called "alt text" of the image; while it is typically invisible, it's good practice to use it for a very short description of the image. Among other advantages, this makes your site more accessible for visually impaired visitors using a screen reader.
+
+### Exercise
+Include an image on your homepage. *Hint*: Make sure the image is
+
+Previous: [Jekyll Setup](03-jekyll-setup.html)  Next: [Changing Your Site Theme](05-using-pandoc.html)

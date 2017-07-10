@@ -14,4 +14,4 @@
 # Lesson
 
 
-Previous: [Github Pages](02-gh-pages.html) Optional Next: [Site Stucture &amp; Navigation](04-site-structure.html)
+Previous: [Github Pages](02-gh-pages.html)  Next: [Site Stucture &amp; Navigation](04-site-structure.html)
