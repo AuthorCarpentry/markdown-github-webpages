@@ -10,131 +10,240 @@
 </header>
 <nav>
 <ul>
-<li><a href=".">Lesson</a></li>
-<li><a href="00-getting-started.html">Topic 1: Getting Started</a></li>
-<li><a href="01-markdown-syntax.html">Topic 2: Syntax</a></li>
-<li><a href="02-gh-pages.html">Topic 3: Github Pages</a></li>
-<li><a href="03-jekyll-setup.html">Topic 4: Jekyll Setup (optional)</a></li>
-<li><a href="04-site-structure.html">Topic 5: Site Structure</a></li>
-<li><a href="05-changing-theme.html">Topic 6: Changing your site theme</a></li>
-<li><a href="mailto:authorcarpentry@library.caltech.edu">Contact Us</a></li>
+<li>
+<a href=".">Lesson</a>
+</li>
+<li>
+<a href="00-getting-started.html">Topic 1: Getting Started</a>
+</li>
+<li>
+<a href="01-markdown-syntax.html">Topic 2: Syntax</a>
+</li>
+<li>
+<a href="02-gh-pages.html">Topic 3: Github Pages</a>
+</li>
+<li>
+<a href="03-jekyll-setup.html">Topic 4: Jekyll Setup (optional)</a>
+</li>
+<li>
+<a href="04-site-structure.html">Topic 5: Site Structure and Themes</a>
+</li>
+<li>
+<a href="05-using%20pandoc.html">Topic 6: Using Pandoc to Create Documents from Markdown</a>
+</li>
+<li>
+<a href="mailto:authorcarpentry@library.caltech.edu">Contact Us</a>
+</li>
 </ul>
-
 </nav>
 
 <section>
-<h1>Github Pages</h1>
-
-<p>40 Minutes</p>
-
-<h2>Learning Objectives</h2>
-
+<h1 id="github-pages">
+Github Pages
+</h1>
+<p>
+40 Minutes
+</p>
+<h2 id="learning-objectives">
+Learning Objectives
+</h2>
 <ul>
-<li>Set up a github repository for a webpage</li>
-<li>clone the repository to your computer</li>
-<li>make local changes and push them to your github site.</li>
+<li>
+Set up a github repository for a webpage
+</li>
+<li>
+clone the repository to your computer
+</li>
+<li>
+make local changes and push them to your github site.
+</li>
 </ul>
-
 <hr />
-
-<h2>Lesson</h2>
-
-<h3>Start a repository for the page on github</h3>
-
+<h2 id="lesson">
+Lesson
+</h2>
+<h3 id="start-a-repository-for-the-page-on-github">
+Start a repository for the page on github
+</h3>
 <ul>
-<li>Go to <a href="https://github.com">https://github.com</a> and  log in with your account</li>
-<li>Click on &ldquo;Start a project&rdquo;</li>
-<li>Pick a (short) name, e.g. my-first-webpage; add a description if you&rsquo;d like; leave the site public</li>
-<li>Check the &ldquo;Initialize with Readme&rdquo; option. Under &ldquo;Add .gitignore&rdquo; choose &ldquo;Jekyll&rdquo;</li>
-<li>Click &ldquo;Create repository&rdquo; to do just that</li>
+<li>
+Go to https://github.com and log in with your account
+</li>
+<li>
+Click on “Start a project”
+</li>
+<li>
+Pick a (short) name, e.g. my-first-webpage; add a description if you’d like; leave the site public
+</li>
+<li>
+Check the “Initialize with Readme” option. Under “Add .gitignore” choose “Jekyll”
+</li>
+<li>
+Click “Create repository” to do just that
+</li>
 </ul>
-
-<h3>Set up the page on github</h3>
-
+<h3 id="set-up-the-page-on-github">
+Set up the page on github
+</h3>
 <ul>
-<li>Your new repository will open on github</li>
-<li>Click on &ldquo;Settings&rdquo; at the top</li>
-<li>Under GitHub Pages, towards the bottom of the screen select &ldquo;master branch&rdquo; and click &ldquo;Save&rdquo;.
-
+<li>
+Your new repository will open on github
+</li>
+<li>
+Click on “Settings” at the top
+</li>
+<li>
+Under GitHub Pages, towards the bottom of the screen select “master branch” and click “Save”.
 <ul>
-<li><strong>Quick Challenge</strong>: github lets you choose between the master branch or a &ldquo;Doc folder&rdquo; within that branch. When would you consider choosing the Doc folder?</li>
-<li><em>Solution</em> The Doc folder is particularly useful when you are writing documentation to a project. That way, you can keep the code in the master branch and have the documentation in a subfolder.</li>
-</ul></li>
-<li>Pick a theme (any theme will do &ndash; pick your favorite!)</li>
-<li><strong>Tip</strong>: Copy the URL of your website and edit the &ldquo;description&rdquo; on the &ldquo;Code&rdquo; tab of your github repository to include it so you can find it easily</li>
+<li>
+<strong>Quick Challenge</strong>: github lets you choose between the master branch or a “Doc folder” within that branch. When would you consider choosing the Doc folder?
+</li>
+<li>
+<em>Solution</em> The Doc folder is particularly useful when you are writing documentation to a project. That way, you can keep the code in the master branch and have the documentation in a subfolder.
+</li>
 </ul>
-
-<h3>Downloand (&ldquo;clone&rdquo;) the repository to your computer</h3>
-
+</li>
+<li>
+<strong>Tip</strong>: Copy the URL of your website and edit the “description” on the “Code” tab of your github repository to include it so you can find it easily later on:
 <ul>
-<li>We do need the command line.</li>
-<li>Go to the &ldquo;Code&rdquo; tab of your repository</li>
-<li>Click on &ldquo;Clone or download&rdquo;</li>
-<li>Copy the HTTPS link for your repository</li>
-<li>In the Terminal (or on git bash on Windows), navigate to the location where you want to put your repository.  Desktop is a easy choice.
-<code>
-cd ~/Desktop
-</code></li>
-<li>Now &ldquo;clone&rdquo; the repository from github using
-<code>
-git clone https://github.com/&lt;yourgithubusername&gt;/my-first-webpage.git
-</code></li>
-<li>In Atom, using the &ldquo;Open Folder&rdquo; command under &ldquo;File&rdquo;, open your my-first-webpage repository.</li>
-<li>You should see 3 files on your left: <code>.gitignore</code>, <code>README.md</code>, and <code>_config.yml</code></li>
+<li>
+After you set the source for your website, the URL will appear in green right above it. It will have the format &lt;yourgithubusername&gt;/github.io/my-first-webpage
+</li>
+<li>
+Copy that URL. Then press the “Code” tab at the top of that page to get back to the root page of your repository.
+</li>
+<li>
+Click on the green Edit button at the top right, next to “<em>No description, website, or topics provided</em>” and add your website URL in the “<em>Website for this repository</em>” field and click Save.
+</li>
 </ul>
-
-<h3>Configuring your page</h3>
-
+</li>
+<li>
+Go back to the settings by clicking on the “Settings” tab at the top and scroll down to the “GitHub Pages” section again.
+</li>
+<li>
+Now pick a theme (any theme will do – pick your favorite!):
 <ul>
-<li>Open <code>_config.yml</code> by clicking on it. This file contains basic information about your site.
-
-<ul>
-<li><code>.yml</code> files are called &ldquo;YAML&rdquo; files.</li>
-</ul></li>
-<li>Change <code>title:</code> to something sensible like <code>title: John Doe's Homepage</code></li>
-<li>Add a description using the <code>description:</code> tag.</li>
-<li>Save the configuration file (you can use <code>ctrl+s</code>)</li>
-<li>Open README.md by clicking on it on the left. This is going to be your homepage.</li>
-<li>You first need to add a &ldquo;YAML header&rdquo; at the top of the file. use</li>
+<li>
+You can click on the themes at the top and see a preview below
+</li>
+<li>
+Click “Select Theme” to pick your favorite theme
+</li>
+<li>
+GitHub will open the “README.md” with some prepopulated text.
+</li>
 </ul>
-
+</li>
+<li>
+Remove the sample text from the README by clicking anywhere in the edit window, select all (<code>ctrl/cmd + a</code>) and the delete or backspace key.
+</li>
+<li>
+Scroll to the bottom of the screen to “commit” your changes. You can just use the default settings and press the green “Commit changes” button.
+</li>
+</ul>
+<h3 id="downloand-clone-the-repository-to-your-computer">
+Downloand (“clone”) the repository to your computer
+</h3>
+<p>
+<em>We will need the command line here, so open terminal (Linux/Mac) or git bash (Windows)</em> * Go back to the “Code” tab of your repository by clicking on “Code” at the top. * Click on “Clone or download” * Copy the HTTPS link for your repository * If you have SSH activated for github, use the SSH link instead. * In the Terminal (or on git bash on Windows), navigate to the location where you want to put your repository. Desktop is a easy choice.
+</p>
+<pre><code>cd ~/Desktop</code></pre>
+<ul>
+<li>
+Now “clone” the repository from github using
+</li>
+</ul>
+<pre><code>git clone https://github.com/&lt;yourgithubusername&gt;/my-first-webpage.git</code></pre>
+<p>
+(the URI will look slightly different using SSH, but the git clone command works exactly the same) * In Atom, using the “Open Folder” command under “File”, open your my-first-webpage repository. * You should see 3 files on your left: <code>.gitignore</code>, <code>README.md</code>, and <code>_config.yml</code>
+</p>
+<h3 id="configuring-your-page">
+Configuring your page
+</h3>
+<ul>
+<li>
+Open <code>_config.yml</code> by clicking on it. This file contains basic information about your site.
+<ul>
+<li>
+<code>.yml</code> files are called “YAML” files.
+</li>
+</ul>
+</li>
+<li>
+Change <code>title:</code> to something sensible like <code>title: John Doe’s Homepage</code>
+</li>
+<li>
+Add a description using the <code>description:</code> tag.
+</li>
+<li>
+Save the configuration file (you can use <code>ctrl+s</code>)
+</li>
+<li>
+Open README.md by clicking on it on the left. This is going to be your homepage.
+</li>
+<li>
+You first need to add a “YAML header” at the top of the file. use
+</li>
+</ul>
 <pre><code>---
-title: John Doe's Homepage
+title: John Doe&#39;s Homepage
 layout: default
----
-</code></pre>
-
+---</code></pre>
 <ul>
-<li>Then add some simple content such as</li>
+<li>
+Then add some simple content such as
+</li>
 </ul>
-
-<pre><code># John Doe's Homepage
-You can find my Resume [here](/myresume.md)
-</code></pre>
-
+<pre><code># John Doe&#39;s Homepage
+You can find my Resume [here](/myresume.md)</code></pre>
 <ul>
-<li>For now, just put any address in the link. We will add the link to your resume shortly.</li>
-<li>Save the file</li>
-<li>Now, in the &ldquo;Package&rdquo; menu of Atom, under git-plus, use the &ldquo;add all, commit and push option&rdquo;</li>
-<li>Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage</li>
-<li>Take a moment to pat yourself on the back.</li>
+<li>
+For now, just put any address in the link. We will add the link to your resume shortly.
+</li>
+<li>
+Save the file
+</li>
+<li>
+Now, in the “Package” menu of Atom, under git-plus, use the “add all, commit and push option”
+</li>
+<li>
+Make sure there are no errors, then check out your new website! It will be at https://<yourgithubusername>.github.io/my-first-webpage
+</li>
+<li>
+Take a moment to pat yourself on the back.
+</li>
 </ul>
-
-<h2>Excercise</h2>
-
-<p>Can you figure out how to add the resume from the last topic as a separate page on the website?
-What is its link? Can you change the link from the homepage so it links to it?</p>
-
-<h3>Solution</h3>
-
+<h2 id="excercise">
+Excercise
+</h2>
+<p>
+Can you figure out how to add the resume from the last topic as a separate page on the website? What is its link? Can you change the link from the homepage so it links to it?
+</p>
+<h3 id="solution">
+Solution
+</h3>
 <ul>
-<li>First copy your myresume.md file to the my-first-webpage folder</li>
-<li>Add a YAML header just like above, except with a different title.</li>
-<li>Run the add all, commit and push option</li>
+<li>
+First copy your myresume.md file to the my-first-webpage folder
+</li>
+<li>
+Add a YAML header just like above, except with a different title.
+</li>
+<li>
+Run the add all, commit and push option
+</li>
+<li>
+Your resume will be on https://<yourgithubusername>.github.io/my-resume
+<ul>
+<li>
+Note the absence of the .md file extension. github/jekyll converts the file to an .html file, so the link also works ending in <code>my-resume.html</code>.
+</li>
 </ul>
-
-<p>Previous: <a href="01-markdown-syntax.html">Markdown Syntax</a>  Next: <a href="03-jekyll-setup.html">Setting up Jekyll</a></p>
-
+</li>
+</ul>
+<p>
+Previous: <a href="01-markdown-syntax.html">Markdown Syntax</a> Next: <a href="03-jekyll-setup.html">Setting up Jekyll</a>
+</p>
 </section>
 
 <footer>

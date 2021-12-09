@@ -3,7 +3,19 @@ Author Carpentry : Using Markdown and github to author for web and print
 
 *Content Contributors: Sebastian Karcher*
 
+<<<<<<< HEAD
 *Lesson Maintainers: Sebastian Karcher*
+=======
+http://authorcarpentry.github.io/lesson-template
+
+This template is inspired by the software and data carpentry templates, 
+but it employs the mkpage site generation tool as an alternative
+to Jekyll.  Full usage information is http://authorcarpentry.github.io/lesson-template/TEMPLATE
+
+*Content Contributors: Name*
+
+*Lesson Maintainers: Name*
+>>>>>>> 701cfda (Rendered Content)
 
 **Lesson status: In Development**
 

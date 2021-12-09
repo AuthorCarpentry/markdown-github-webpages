@@ -10,36 +10,117 @@
 </header>
 <nav>
 <ul>
-<li><a href=".">Lesson</a></li>
-<li><a href="00-getting-started.html">Topic 1: Getting Started</a></li>
-<li><a href="01-markdown-syntax.html">Topic 2: Syntax</a></li>
-<li><a href="02-gh-pages.html">Topic 3: Github Pages</a></li>
-<li><a href="03-jekyll-setup.html">Topic 4: Jekyll Setup (optional)</a></li>
-<li><a href="04-site-structure.html">Topic 5: Site Structure</a></li>
-<li><a href="05-changing-theme.html">Topic 6: Changing your site theme</a></li>
-<li><a href="mailto:authorcarpentry@library.caltech.edu">Contact Us</a></li>
+<li>
+<a href=".">Lesson</a>
+</li>
+<li>
+<a href="00-getting-started.html">Topic 1: Getting Started</a>
+</li>
+<li>
+<a href="01-markdown-syntax.html">Topic 2: Syntax</a>
+</li>
+<li>
+<a href="02-gh-pages.html">Topic 3: Github Pages</a>
+</li>
+<li>
+<a href="03-jekyll-setup.html">Topic 4: Jekyll Setup (optional)</a>
+</li>
+<li>
+<a href="04-site-structure.html">Topic 5: Site Structure and Themes</a>
+</li>
+<li>
+<a href="05-using%20pandoc.html">Topic 6: Using Pandoc to Create Documents from Markdown</a>
+</li>
+<li>
+<a href="mailto:authorcarpentry@library.caltech.edu">Contact Us</a>
+</li>
 </ul>
-
 </nav>
 
 <section>
-<h1>Site Structure &amp; Navigation</h1>
-
-<p>?? minutes</p>
-
-<h2>Learning Objectives</h2>
-
+<h1 id="site-structure-navigation-and-theming">
+Site Structure, Navigation, and Theming
+</h1>
+<p>
+?? minutes
+</p>
+<h2 id="learning-objectives">
+Learning Objectives
+</h2>
 <ul>
-<li>Understand the configuration file of your website</li>
-<li>Create several pages with some nagivation</li>
+<li>
+Create several pages with some navigation and crosslinks
+</li>
+<li>
+Create an image folder and insert an image into your website
+</li>
+<li>
+Change your site’s theme
+</li>
 </ul>
-
 <hr />
-
-<h1>Site structure</h1>
-
-<p>Previous: <a href="03-jekyll-setup.html">Jekyll Setup</a>  Next: <a href="05-changing-theme.html">Changing Your Site Theme</a></p>
-
+<h2 id="site-structure">
+Site structure
+</h2>
+<p>
+Conveniently, Jekyll just uses the folder structure you create locally as the structure for your website. * You can create pages and sub-pages simply by using folders. E.g. if you would like a page to talk about your hobbies with sub-pages basketball, painting, and salsa dancing, you would simply create <code>hobbies.md</code> in your website folder, create a new folder <code>hobbies</code> and in it create <code>basketball.md</code>, <code>painting.md</code>, and <code>salsa.md</code>. You would then have URLs like <code>&lt;mypage&gt;.github.io/hobbies/salsa</code> * <strong>Tip</strong>: You can do all of this in your file browser, but you can also stay entirely in Atom. By right clicking on your website folder on the left, you can create a new folder, and right-clicking on that folder lets you create files in that folder.
+</p>
+<h3 id="exercise">
+Exercise
+</h3>
+<p>
+You now want to provide information about your dissertation research (or your book manuscript, if you prefer) on your page. Create a page “Dissertation” that links to sub-pages for Chapter 1, Chapter 2, Chapter 3 (or any other divisions you would like). Don’t worry about populating any of those pages.
+</p>
+<h3 id="solution">
+Solution
+</h3>
+<ul>
+<li>
+Right-click on the top-level folder, “my-first-webpage” on the left and select “New File”. Create <code>dissertation.md</code> and add a YAML header (see below) and save the file.
+</li>
+</ul>
+<pre><code>---
+title: Dissertation
+layout: default
+---</code></pre>
+<ul>
+<li>
+Right-click again on <code>my-first-webpage</code> on the left, now select "New Folder and create <code>dissertation</code>.
+</li>
+<li>
+Right-click now on <code>dissertation</code> on the left, select “New File”, create <code>chapter1.md</code> add a YAML header like the one above and save.
+</li>
+<li>
+Proceed alike for chapters 2 and 3.
+</li>
+<li>
+Now open up <code>dissertation.md</code> and create links to these three chapters. That be something like
+</li>
+</ul>
+<pre><code>Learn more about my dissertation.
+* Details about chapter 1 are [here](dissertation/chapter1)
+* Details about chapter 2 are [here](dissertation/chapter2)
+* Details about chapter 3 are [here](dissertation/chapter3)</code></pre>
+<ul>
+<li>
+Use “Add all, commit, and push” to push your changes to github and see your results.
+</li>
+</ul>
+<h2 id="images">
+Images
+</h2>
+<p>
+You can use the same ideas about structure to add images to your page. An image is written just like a link, but preceded by an exclamation mark. <code><img src="/linkto/image.png" alt="This is an image" /></code> * <strong>Tip</strong>: The text in the square brackets is the so-called “alt text” of the image; while it is typically invisible, it’s good practice to use it for a very short description of the image. Among other advantages, this makes your site more accessible for visually impaired visitors using a screen reader.
+</p>
+<h3 id="exercise-1">
+Exercise
+</h3>
+<p>
+Include an image on your homepage. <em>Hint</em>: Make sure the image is
+</p>
+<p>
+Previous: <a href="03-jekyll-setup.html">Jekyll Setup</a> Next: <a href="05-using-pandoc.html">Changing Your Site Theme</a>
+</p>
 </section>
 
 <footer>
